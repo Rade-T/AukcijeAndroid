@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="item_query_categories">
+        <item>Naziv</item>
+        <item>Opis</item>
+    </string-array>
+
+    <string-array name="auction_query_visibility">
+        <item>Sve</item>
+        <item>U toku</item>
+        <item>Zavrsene</item>
+    </string-array>
+
+    <string-array name="splash_duration_values">
+        <item>1000</item>
+        <item>5000</item>
+        <item>10000</item>
+    </string-array>
+
+    <string-array name="splash_duration_entries">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+    </string-array>
+
+</resources>

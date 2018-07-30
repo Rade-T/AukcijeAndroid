@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/splashscreen_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/auction_icon"
+    android:scaleType = "centerCrop"
+    tools:context="com.a2015.sf32.aukcije.activities.SplashScreenActivity">
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Podaci o korisniku"
+        android:key="user_settings">
+
+        <EditTextPreference
+            android:key="name_pref"
+            android:title="Ime"/>
+
+        <EditTextPreference
+            android:key="email_pref"
+            android:title="Email"/>
+
+        <EditTextPreference
+            android:key="address_pref"
+            android:title="Adresa"/>
+
+        <EditTextPreference
+            android:key="phone_pref"
+            android:title="Telefon"/>
+
+        <EditTextPreference
+            android:key="password_pref"
+            android:title="Lozinka" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Splash screen"
+        android:key="splash_settings">
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="splash_enable_pref"
+            android:title="Show splash screen" />
+
+        <!-- <EditTextPreference
+            android:dependency="splash_enable_pref"
+            android:defaultValue="1"
+            android:key="splash_duration_pref"
+            android:title="Period prikaza" /> -->
+
+        <ListPreference
+            android:dependency="splash_enable_pref"
+            android:key="splash_duration_pref"
+            android:title="Period prikaza"
+            android:entries="@array/splash_duration_entries"
+            android:entryValues="@array/splash_duration_values"
+            />
+    </PreferenceCategory>
+
+</PreferenceScreen>
